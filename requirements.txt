@@ -1,0 +1,33 @@
+# Django & core
+Django>=5.0,<6
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.3
+django-cors-headers>=4.3
+django-filter>=23.5
+django-axes>=6.0
+django-ratelimit>=4.1
+python-dotenv>=1.0
+
+# Security & auth
+PyJWT>=2.8
+cryptography>=42.0
+
+# File handling
+Pillow>=10.2
+python-magic-bin>=0.4.14; sys_platform == "win32"
+python-magic>=0.4.27; sys_platform != "win32"
+
+# Reports (PDF/CSV)
+reportlab>=4.0
+django-import-export>=3.3
+
+# Database
+psycopg2-binary>=2.9
+dj-database-url>=2.1
+
+# Utils
+python-decouple>=3.8
+phonenumbers>=8.13
+# Object storage (optional)
+django-storages[boto3]>=1.13
+boto3>=1.28
